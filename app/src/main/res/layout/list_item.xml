@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for list item in a list view -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- Product Image -->
+    <ImageView
+        android:id="@+id/product_image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"/>
+
+    <!-- Container for product description and price -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:layout_marginStart="@dimen/normal_margin"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <!-- Product description -->
+        <TextView
+            android:id="@+id/list_item_product_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"/>
+
+        <!-- Product price field -->
+        <TextView
+            android:id="@+id/list_item_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <!-- Quantity inside green circle -->
+    <TextView
+        android:id="@+id/list_item_product_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/quantity_circle"
+        android:gravity="center"/>
+
+    <!-- Sell button -->
+
+</LinearLayout>
