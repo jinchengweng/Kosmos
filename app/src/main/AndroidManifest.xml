@@ -12,6 +12,8 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="m">
+        <activity android:name=".other.ShareActivity"></activity>
+        <activity android:name=".other.ManualActivity"></activity>
         <activity android:name=".view.ui.CatalogActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,14 +24,15 @@
         <activity
             android:name=".view.ui.ProductActivity"
             android:parentActivityName=".view.ui.CatalogActivity"
-            android:theme="@style/AppTheme"/>
+            android:theme="@style/AppTheme" />
+
         <provider
             android:name=".model.ProductProvider"
-            android:authorities="com.example.android.stockkeepingassistant"
+            android:authorities="com.fct.kosmos"
             android:exported="false" />
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.android.stockkeepingassistant.fileprovider"
+            android:authorities="com.fct.kosmos.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -37,5 +40,9 @@
                 android:resource="@xml/files" />
         </provider>
 
+        <activity
+            android:name=".cliente.ClienteActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
+
 </manifest>

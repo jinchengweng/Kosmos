@@ -6,19 +6,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_notifications_black_24dp"
+            android:icon="@drawable/ic_home"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_cliente"
-            android:icon="@drawable/ic_notifications_black_24dp"
+            android:icon="@drawable/ic_domain"
             android:title="@string/menu_gallery" />
         <item
             android:id="@+id/nav_nosotros"
-            android:icon="@drawable/ic_notifications_black_24dp"
+            android:icon="@drawable/ic_people"
             android:title="@string/menu_slideshow" />
         <item
             android:id="@+id/nav_manualUsuario"
-            android:icon="@drawable/ic_notifications_black_24dp"
+            android:icon="@drawable/ic_library_books"
             android:title="@string/menu_tools" />
     </group>
 
@@ -26,11 +26,11 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_notifications_black_24dp"
+                android:icon="@drawable/ic_folder_shared"
                 android:title="@string/menu_share" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_notifications_black_24dp"
+                android:icon="@drawable/ic_cancel"
                 android:title="@string/menu_send" />
         </menu>
     </item>

@@ -24,21 +24,21 @@ public class Warehouse {
     private Context context;
     @SuppressLint("StaticFieldLeak")
     private static Warehouse warehouse;
-    private Map<String, String> supplierToEmailMap;
+    private Map<String, String> trabajadorToEmailMap;
     private SQLiteDatabase database;
 
     private void makeEmailDirectory() {
-        supplierToEmailMap = new HashMap<>(10);
-        supplierToEmailMap.put(context.getString(R.string.supplier_1), "staples@gmail.com");
-        supplierToEmailMap.put(context.getString(R.string.supplier_2), "depot@gmail.com");
-        supplierToEmailMap.put(context.getString(R.string.supplier_3), "barnes.noble@gmail.com");
-        supplierToEmailMap.put(context.getString(R.string.supplier_4), "target@gmail.com");
-        supplierToEmailMap.put(context.getString(R.string.supplier_5), "it.books@gmail.com");
-        supplierToEmailMap.put(context.getString(R.string.supplier_6), "paper.source@gmail.com");
-        supplierToEmailMap.put(context.getString(R.string.supplier_7), "maido@gmail.com");
-        supplierToEmailMap.put(context.getString(R.string.supplier_8), "best.buy@gmail.com");
-        supplierToEmailMap.put(context.getString(R.string.supplier_9), "office.max@gmail.com");
-        supplierToEmailMap.put(context.getString(R.string.supplier_10), "booksmith@gmail.com");
+        trabajadorToEmailMap = new HashMap<>(10);
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_1), "trabajador1@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_2), "trabajador2@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_3), "trabajador3@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_4), "trabajador4@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_5), "trabajador5@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_6), "trabajador6@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_7), "trabajador7@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_8), "trabajador8@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_9), "trabajador9@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_10), "trabajador10@gmail.com");
     }
 
     private Warehouse(Context context) {
@@ -57,12 +57,12 @@ public class Warehouse {
     }
 
     public String resolveEmail(String supplierName) {
-        return supplierToEmailMap.get(supplierName);
+        return trabajadorToEmailMap.get(supplierName);
     }
 
     @Nullable
     public String resolveName(String supplierEmail) {
-        for (Map.Entry<String, String> entry : supplierToEmailMap.entrySet()) {
+        for (Map.Entry<String, String> entry : trabajadorToEmailMap.entrySet()) {
             if (entry.getValue().equals(supplierEmail)) {
                 return entry.getKey();
             }

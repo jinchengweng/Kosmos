@@ -130,7 +130,7 @@ public class ProductFragment extends Fragment implements View.OnClickListener {
         productCamera.setOnClickListener(v -> {
             Uri uri = FileProvider.getUriForFile(
                     getActivity(),
-                    "com.example.android.stockkeepingassistant.fileprovider",
+                    "com.fct.kosmos.fileprovider",
                     photoFile
             );
             captureImage.putExtra(MediaStore.EXTRA_OUTPUT, uri);
@@ -198,7 +198,7 @@ public class ProductFragment extends Fragment implements View.OnClickListener {
         if (requestCode == REQUEST_PHOTO) {
             Uri uri = FileProvider.getUriForFile(
                     getActivity(),
-                    "com.example.android.stockkeepingassistant.fileprovider",
+                    "com.fct.kosmos.fileprovider",
                     photoFile
             );
 
