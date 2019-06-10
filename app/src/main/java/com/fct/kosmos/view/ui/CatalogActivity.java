@@ -1,5 +1,6 @@
 package com.fct.kosmos.view.ui;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -14,6 +15,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.fct.kosmos.R;
+import com.fct.kosmos.activities.LoginActivity;
 import com.fct.kosmos.other.ManualActivity;
 import com.fct.kosmos.other.ShareActivity;
 import com.fct.kosmos.cliente.ClienteActivity;
@@ -30,6 +32,7 @@ public class CatalogActivity extends AppCompatActivity {
 	private RecyclerView recyclerView;
 	private CatalogAdapter adapter;
 
+	@SuppressLint("WrongConstant")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -139,7 +142,9 @@ public class CatalogActivity extends AppCompatActivity {
 			Intent i = new Intent(this, ShareActivity.class);
 			startActivity(i);
 		} else if (id == R.id.nav_send) {
-
+			Intent backSLogIN = new Intent(this, LoginActivity.class);
+			startActivity(backSLogIN);
+			finish();
 		}
 
 		DrawerLayout drawer = findViewById(R.id.drawer_layout);

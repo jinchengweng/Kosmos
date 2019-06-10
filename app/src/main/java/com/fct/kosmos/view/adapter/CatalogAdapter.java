@@ -59,7 +59,7 @@ public class CatalogAdapter extends RecyclerView.Adapter<CatalogAdapter.ProductH
             if (photo != null) {
                 image.setImageBitmap(photo);
             } else {
-                image.setImageResource(R.drawable.no_prod_img);
+                image.setImageResource(R.mipmap.ic_launcher_round);
             }
 
             title.setText(productTitle);
