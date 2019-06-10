@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="300dp"
     android:background="@drawable/clean"
     android:gravity="bottom"
     android:orientation="vertical"
@@ -15,9 +15,9 @@
 
     <com.mikhaellopez.circularimageview.CircularImageView
         android:id="@+id/navUsuarioImgPerfil"
-        android:layout_width="64dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="76dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="1dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         app:civ_border_color="#ffffff"
@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.054"
+        app:layout_constraintVertical_bias="0.336"
         app:srcCompat="@drawable/chica" />
 
     <TextView
@@ -43,17 +43,17 @@
         android:layout_marginBottom="8dp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
 
-        android:textAllCaps="true"
         android:text="@string/nav_header_welcome"
+        android:textAllCaps="true"
         android:textColor="#5689D3"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.731" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

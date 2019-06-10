@@ -53,7 +53,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:16.0.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
     //Librerias de animacion con Lottie
-    implementation 'com.airbnb.android:lottie:2.1.0'
+    implementation 'com.airbnb.android:lottie:3.0.0-beta1'
     implementation 'com.android.support:design:28.0.0'
 
 }

@@ -93,11 +93,11 @@
     <string name="product_camera_cd">Boton que abre la camara movil para capturar la imagen del producto.</string>
 
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Cliente</string>
-    <string name="menu_slideshow">Nosotros</string>
-    <string name="menu_tools">Manual de usuario</string>
-    <string name="menu_share">Compartir</string>
+    <string name="menu_home">Productos</string>
+    <string name="menu_gallery">Clientes</string>
+    <string name="menu_slideshow">Contacto</string>
+    <string name="menu_tools">Manual</string>
+    <string name="menu_share">General Excel</string>
     <string name="menu_send">Salir</string>
     <string name="title_activity_home_log_in">HomeLogIn</string>
     <string name="title_activity_sub_menu">SubMenu</string>

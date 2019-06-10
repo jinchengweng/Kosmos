@@ -7,7 +7,7 @@
 
     <item
         android:id="@+id/delete_product"
-        android:icon="@android:drawable/ic_delete"
+        android:icon="@drawable/borrar"
         android:title="@string/action_delete"
         app:showAsAction="always" />
 
