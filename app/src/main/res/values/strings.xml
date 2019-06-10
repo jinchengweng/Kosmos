@@ -24,7 +24,7 @@
     <string name="category_supplier_contact">Trabajador Email</string>
     <string name="product_decrease_quantity_label">-</string>
     <string name="product_increase_quantity_label">+</string>
-    <string name="product_order_more_label">Click para enviar un correo al proveedor </string>
+    <string name="product_order_more_label">Enviar un correo al proveedor </string>
 
     <string name="product_decrease_button_negative">Producto no puede ser menor que cero </string>
     <string name="unsupported_insertion">La inserción no es compatible para</string>
