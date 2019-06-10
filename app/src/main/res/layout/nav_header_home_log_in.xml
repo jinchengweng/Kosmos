@@ -24,8 +24,8 @@
         app:srcCompat="@drawable/ic_person_black_24dp" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="76dp"
+        android:layout_width="389dp"
+        android:layout_height="96dp"
         android:orientation="vertical"
         android:paddingLeft="5dp">
 
