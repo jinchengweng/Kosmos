@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "28774779511",
+    "firebase_url": "https://kosmos-erp.firebaseio.com",
+    "project_id": "kosmos-erp",
+    "storage_bucket": "kosmos-erp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28774779511:android:7b266e4f8193135b",
+        "android_client_info": {
+          "package_name": "com.fct.kosmos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28774779511-cp54qol541ecoogvc0ilu710mpdj8lk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fct.kosmos",
+            "certificate_hash": "14eaca5533e3d9bfced040a690508ee2de0a15c0"
+          }
+        },
+        {
+          "client_id": "28774779511-i5p6llj6u6kr7o6iqi04i14gko5hk51m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fct.kosmos",
+            "certificate_hash": "4d900b871c71938942a665c53774f88fe97b4c1d"
+          }
+        },
+        {
+          "client_id": "28774779511-kvhha1na36jmfpea46qgobb0q30rkipo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp05LwCfIswHZcaCE_ot-73fJmpgWTJRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28774779511-kvhha1na36jmfpea46qgobb0q30rkipo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
