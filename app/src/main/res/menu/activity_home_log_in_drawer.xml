@@ -13,13 +13,13 @@
             android:icon="@drawable/ic_domain"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_nosotros"
-            android:icon="@drawable/ic_people"
-            android:title="@string/menu_slideshow" />
-        <item
             android:id="@+id/nav_manualUsuario"
             android:icon="@drawable/ic_library_books"
             android:title="@string/menu_tools" />
+        <item
+            android:id="@+id/nav_nosotros"
+            android:icon="@drawable/ic_people"
+            android:title="@string/menu_slideshow" />
     </group>
 
     <item android:title="Communicate">
@@ -30,7 +30,7 @@
                 android:title="@string/menu_share" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_cancel"
+                android:icon="?attr/actionModeCloseDrawable"
                 android:title="@string/menu_send" />
         </menu>
     </item>

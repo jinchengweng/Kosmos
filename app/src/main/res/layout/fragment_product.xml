@@ -20,6 +20,7 @@
             <!-- Label -->
             <TextView
                 style="@style/CategoryStyle"
+                android:layout_height="56dp"
                 android:text="@string/category_overview" />
 
             <!-- Input fields -->
@@ -40,8 +41,8 @@
                     <!-- Product image for existing product -->
                     <ImageView
                         android:id="@+id/product_image"
-                        android:layout_width="@dimen/product_image_view_dims"
-                        android:layout_height="@dimen/product_image_view_dims"
+                        android:layout_width="match_parent"
+                        android:layout_height="158dp"
                         android:contentDescription="@string/product_image_cd"
                         android:scaleType="centerCrop"
                         tools:src="@mipmap/ic_launcher" />
@@ -49,7 +50,7 @@
                     <!-- Upload product image prompt -->
                     <ImageButton
                         android:id="@+id/product_camera"
-                        android:layout_width="match_parent"
+                        android:layout_width="246dp"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/product_camera_cd"
                         android:src="@drawable/ic_camera_alt_black_24dp" />
@@ -165,12 +166,23 @@
         </LinearLayout>
 
         <!-- Button to order more from product supplier -->
-        <Button
-            android:id="@+id/product_order_more"
+        <TextView
+            android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="LOS PRODUCTOS SE AÑADEN AUTOÁTICAMENTE" />
+
+        <Button
+            android:id="@+id/product_order_more"
+            android:layout_width="362dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center"
             android:layout_marginTop="@dimen/top_margin_order_more_button"
-            android:text="@string/product_order_more_label" />
+            android:background="#5689D3"
+            android:text="@string/product_order_more_label"
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 </ScrollView>
