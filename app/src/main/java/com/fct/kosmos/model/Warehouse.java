@@ -29,16 +29,16 @@ public class Warehouse {
 
     private void makeEmailDirectory() {
         trabajadorToEmailMap = new HashMap<>(10);
-        trabajadorToEmailMap.put(context.getString(R.string.supplier_1), "trabajador1@gmail.com");
-        trabajadorToEmailMap.put(context.getString(R.string.supplier_2), "trabajador2@gmail.com");
-        trabajadorToEmailMap.put(context.getString(R.string.supplier_3), "trabajador3@gmail.com");
-        trabajadorToEmailMap.put(context.getString(R.string.supplier_4), "trabajador4@gmail.com");
-        trabajadorToEmailMap.put(context.getString(R.string.supplier_5), "trabajador5@gmail.com");
-        trabajadorToEmailMap.put(context.getString(R.string.supplier_6), "trabajador6@gmail.com");
-        trabajadorToEmailMap.put(context.getString(R.string.supplier_7), "trabajador7@gmail.com");
-        trabajadorToEmailMap.put(context.getString(R.string.supplier_8), "trabajador8@gmail.com");
-        trabajadorToEmailMap.put(context.getString(R.string.supplier_9), "trabajador9@gmail.com");
-        trabajadorToEmailMap.put(context.getString(R.string.supplier_10), "trabajador10@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_1), "jinchenwen97@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_2), "Provedor2@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_3), "Provedor3@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_4), "Provedor4@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_5), "Provedor5@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_6), "Provedor6@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_7), "Provedor7@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_8), "Provedor8@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_9), "Provedor9@gmail.com");
+        trabajadorToEmailMap.put(context.getString(R.string.supplier_10), "Provedor10@gmail.com");
     }
 
     private Warehouse(Context context) {

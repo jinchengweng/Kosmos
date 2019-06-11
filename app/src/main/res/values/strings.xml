@@ -7,16 +7,16 @@
     <string name="category_overview">Introduce una foto</string>
     <string name="hint_product_quantity">Cantidad</string>
 
-    <string name="supplier_1">Trabajador1</string>
-    <string name="supplier_2">Trabajador2</string>
-    <string name="supplier_3">Trabajador3</string>
-    <string name="supplier_4">Trabajador4</string>
-    <string name="supplier_5">Trabajador5</string>
-    <string name="supplier_6">Trabajador6</string>
-    <string name="supplier_7">Trabajador7</string>
-    <string name="supplier_8">Trabajador8</string>
-    <string name="supplier_9">Trabajador9</string>
-    <string name="supplier_10">Trabajador10</string>
+    <string name="supplier_1">Provedor1</string>
+    <string name="supplier_2">Provedor2</string>
+    <string name="supplier_3">Provedor3</string>
+    <string name="supplier_4">Provedor4</string>
+    <string name="supplier_5">Provedor5</string>
+    <string name="supplier_6">Provedor6</string>
+    <string name="supplier_7">Provedor7</string>
+    <string name="supplier_8">Provedor8</string>
+    <string name="supplier_9">Provedor9</string>
+    <string name="supplier_10">Provedor10</string>
     <string name="category_supplier">Trabajador</string>
 
     <string name="hint_product_supplier_name">Name of Supplier</string>
