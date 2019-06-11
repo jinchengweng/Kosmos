@@ -139,6 +139,11 @@
     <string name="permisoIMG">Permite el acceso para insertar una imagen</string>
     <string name="nav_header_title">Bienvenido a KOSMOS</string>
     <string name="nav_header_subtitle">clean4you@gmail.com</string>
+    <string name="tvContacto">Contactos</string>
+    <string name="tvDesarrolador">Desarroladores</string>
+    <string name="tvTelf">Numero de telefono: 921231243</string>
+    <string name="tvDireccion">Direccion: C/ Perales, 12 - 14, 28703 – San Sebastián de los Reyes, Madrid</string>
+    <string name="tvMaUsa">Esta aplicacion cuenta con muchas funcionalidades entre ellas podemos destacar el añadir eliminar o modificar productos, en el caso de que queden pocos productos enviara un aviso al administrador.</string>
 
 
 </resources>

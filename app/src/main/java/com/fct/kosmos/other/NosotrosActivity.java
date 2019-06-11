@@ -1,15 +1,15 @@
 package com.fct.kosmos.other;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.fct.kosmos.R;
 import com.fct.kosmos.activities.LoginActivity;
@@ -17,12 +17,12 @@ import com.fct.kosmos.cliente.ClienteActivity;
 import com.fct.kosmos.view.ui.CatalogActivity;
 import com.google.android.material.navigation.NavigationView;
 
-public class ShareActivity extends AppCompatActivity {
+public class NosotrosActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_share);
+        setContentView(R.layout.activity_home_nosotros);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.fct.kosmos.R;
 import com.fct.kosmos.activities.LoginActivity;
 import com.fct.kosmos.other.ManualActivity;
+import com.fct.kosmos.other.NosotrosActivity;
 import com.fct.kosmos.other.ShareActivity;
 import com.fct.kosmos.cliente.ClienteActivity;
 import com.fct.kosmos.model.Product;
@@ -134,7 +135,8 @@ public class CatalogActivity extends AppCompatActivity {
 			Intent i = new Intent(this, ClienteActivity.class);
 			startActivity(i);
 		} else if (id == R.id.nav_nosotros) {
-
+			Intent i = new Intent(this, NosotrosActivity.class);
+			startActivity(i);
 		} else if (id == R.id.nav_manualUsuario) {
 			Intent i = new Intent(this, ManualActivity.class);
 			startActivity(i);

@@ -20,6 +20,7 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="m">
+        <activity android:name=".other.NosotrosActivity"></activity>
         <activity android:name=".other.ShareActivity"></activity>
         <activity android:name=".other.ManualActivity"></activity>
         <activity android:name=".activities.WelcomeActivity" />

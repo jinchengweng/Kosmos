@@ -12,6 +12,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.fct.kosmos.R;
+import com.fct.kosmos.activities.LoginActivity;
 import com.fct.kosmos.cliente.ClienteActivity;
 import com.fct.kosmos.view.ui.CatalogActivity;
 import com.google.android.material.navigation.NavigationView;
@@ -81,7 +82,8 @@ public class ManualActivity extends AppCompatActivity {
             Intent i = new Intent(this, ClienteActivity.class);
             startActivity(i);
         } else if (id == R.id.nav_nosotros) {
-
+            Intent i = new Intent(this, NosotrosActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_manualUsuario) {
             Intent i = new Intent(this, ManualActivity.class);
             startActivity(i);
@@ -89,7 +91,9 @@ public class ManualActivity extends AppCompatActivity {
             Intent i = new Intent(this, ShareActivity.class);
             startActivity(i);
         } else if (id == R.id.nav_send) {
-
+            Intent backSLogIN = new Intent(this, LoginActivity.class);
+            startActivity(backSLogIN);
+            finish();
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
